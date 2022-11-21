@@ -13,4 +13,6 @@ jobs:
         with:
           node-version: 16
       - name: Dagger Pipeline
-        run: npm run dagger
+        run: |
+        npm install
+        npm run dagger
